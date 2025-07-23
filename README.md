@@ -16,6 +16,11 @@ Required:
 
 •	Prepare output for plotting using merge.py
   •	usage: merge.py selected_aminoacids.txt unselected_aminoacids.txt outfile.txt
+•	If interested in calculating amino acid distance from wildtype sequence, use merge_AA.py
+  •	Edit file to include wildtype amino acid sequence
+  •	usage: merge.py selected_aminoacids.txt unselected_aminoacids.txt outfile.txt
 
 •	Plot data in R using bubbplotplot_enriched.r and piechart.r
   •	Code will need to be modified with input file, and for any changes to plotting options.
+•	If interested in visualizing amino acid distance from wildtype sequence, use bubbleplot_enriched_AA.r
+  • Code will need to be modified with input file, and for any changes to plotting options. Additionally, fuzzy percentages to call binning of amino acid differences must be adjusted.
